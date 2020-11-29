@@ -38,6 +38,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func openWebsite(_ sender: AnyObject) {
+        print("web")
         UIApplication.shared.open(URL(string: "http://hse.ru")!, options: [:], completionHandler: nil)
     }
 
